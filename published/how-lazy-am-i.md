@@ -1,5 +1,3 @@
-## Motivation
-
 Occasionally I find myself running some random Perl script from a Github gist or dealing with some code from a colleague that doesn't have proper dependency management (yet).  It's a bit painful to
 
 * run the script
@@ -12,19 +10,13 @@ Occasionally I find myself running some random Perl script from a Github gist or
 * lather
 * repeat
 
-## Prior Art
+## Being lazy
 
-I was aware of [Acme::Magic::Pony](https://metacpan.org/pod/Acme::Magic::Pony).  It already solves this problem, but it uses [cpan](https://metacpan.org/pod/cpan) for the installation.  [lib::xi](https://metacpan.org/pod/lib::xi) also solves this problem, but does this via `cpanm`.  (I was only made aware of [lib::xi](https://metacpan.org/pod/lib::xi) later).  I've lately been using [App::cpm](https://metacpan.org/pod/App::cpm) to install modules, so I wanted a solution that would also use [App::cpm](https://metacpan.org/pod/App::cpm).  I came up with something which I've been using for my own needs.  I'm now ready for the general public to tell me how bad of an idea it really is.  Drum roll please...
+I was aware of [Acme::Magic::Pony](https://metacpan.org/pod/Acme::Magic::Pony).  It already solves this problem, but it uses [cpan](https://metacpan.org/pod/cpan) for the installation.  [lib::xi](https://metacpan.org/pod/lib::xi) also solves this problem, but does this via [cpanm](https://metacpan.org/pod/cpanm).  (I was only made aware of [lib::xi](https://metacpan.org/pod/lib::xi) later).  I've lately been using [App::cpm](https://metacpan.org/pod/App::cpm) to install modules, so I wanted a solution that would also use [App::cpm](https://metacpan.org/pod/App::cpm).  I came up with something which I've been using for my own needs.  I'm now ready for the general public to tell me how bad of an idea it really is.  Drum roll please...
 
 I give you [lazy](https://metacpan.org/pod/lazy).
 
-[lazy](https://metacpan.org/pod/lazy) is really easy to use.  Let's say you have a script called `foo.pl` which may (or may not) include dependencies which you have not yet installed.  You can now invoke it this way:
-
-`perl -Mlazy foo.pl`
-
-This will attempt to install any missing dependencies in a place where they are globally available to you.  If all goes well you'll be installing dependencies and running your code all in one invocation of your script.
-
-For example, if `foo.pl` contains:
+Let's take an example script, called `foo.pl`:
 
 ```perl
 use strict;
@@ -36,16 +28,36 @@ use Open::This qw( to_editor_args );
 say join ' ', to_editor_args('LWP::UserAgent::new()');
 ```
 
-then your output might look something like:
+If you are missing an installed module, your output might look something like:
 
 ```bash
-$ perl -Mlazy ot.pl
+$ perl foo.pl
+Can't locate Open/This.pm in @INC (you may need to install the Open::This module) (@INC contains: /Users/olafalders/.plenv/versions/5.26.1/lib/perl5/site_perl/5.26.1/darwin-2level /Users/olafalders/.plenv/versions/5.26.1/lib/perl5/site_perl/5.26.1 /Users/olafalders/.plenv/versions/5.26.1/lib/perl5/5.26.1/darwin-2level /Users/olafalders/.plenv/versions/5.26.1/lib/perl5/5.26.1) at foo.pl line 3.
+BEGIN failed--compilation aborted at foo.pl line 3.
+```
+
+Let's try re-invoking this script, but this time with [lazy](https://metacpan.org/pod/lazy):
+
+
+`perl -Mlazy foo.pl`
+
+This will attempt to install any missing dependencies in a place where they are globally available to you.  If all goes well you'll be installing dependencies and running your code all in one invocation of your script.  Does it work?  Let's test it.
+
+
+```bash
+$ perl -Mlazy foo.pl
 DONE install Open-This-0.000009 (using prebuilt)
 1 distribution installed.
 +20 /Users/olafalders/.plenv/versions/5.26.1/lib/perl5/site_perl/5.26.1/LWP/UserAgent.pm
 ```
 
-Note that the above script is giving you the arguments which you could pass to an editor, like `vim` to open up [LWP::UserAgent](https://metacpan.org/pod/LWP::UserAgent) at the line where `sub new` is defined.  I hope to get to [Open::This](https://metacpan.org/pod/Open::This) in a subsequent blog post.
+It *did* work and it was pretty painless.  `lazy` noticed that a module ([Open::This](https://metacpan.org/pod/Open::This)) was missing, so it installed it, loaded it and then allowed the script successfully to run to completion.
+
+(Note that the above script is giving you the arguments which you could pass to an editor, like `vim` to open up [LWP::UserAgent](https://metacpan.org/pod/LWP::UserAgent) at the line where `sub new` is defined.  I hope to get to [Open::This](https://metacpan.org/pod/Open::This) in a subsequent blog post.)
+
+That's enough information to make you dangerous.  At this point you can stop reading and get on with your life.  If you'd like to see some more advanced use cases, read on.
+
+## Using an arbitrary local::lib
 
 If you'd like to keep the new dependencies in a sandbox, you can do this:
 
@@ -136,6 +148,8 @@ my_sandbox/
 
 But wait, there's more!
 
+## Using a default local::lib
+
 If you're too lazy to specify a local directory, but you still want to use a local lib, [lazy](https://metacpan.org/pod/lazy) will use whatever your first default [local::lib](https://metacpan.org/pod/local::lib) install location is:
 
 `perl -Mlocal::lib -Mlazy foo.pl`
@@ -197,6 +211,8 @@ $ tree ~/perl5/lib/perl5
 
 But wait, there's more!
 
+## Passing args to cpm
+
 If you want to pass some extra flags to `cpm` you can do this by passing them to `lazy`:
 
 `perl -Mlazy=-v foo.pl`
@@ -231,16 +247,13 @@ use lazy qw( -v --no-color );
 
 ## In Your Editor
 
-This whole thing got me thinking about a `vim` integration.  In my case I've got:
+This whole thing got me thinking about a `vim` integration.  In my case I've added the following to my `.vimrc`:
 
-```vim
-" Try to install missing Perl modules
-nnoremap <leader>l :!perl -Mlazy -c %:p
-```
+`nnoremap <leader>l :!perl -Mlazy -c %:p`
 
-This essentially means that in my editor, if I type `,l` `vim` takes the name of the file I'm currently working on ("Foo.pm") and runs `perl -Mlazy -c Foo.pm`. Since `lazy` will still be invoked when run via `-c` we don't even have to run code to install modules.  We can essentially just run a compile check and this sets the module installation chain of events into motion.  I can install missing modules without leaving my editor.
+This essentially means that in my editor, if I type `,l` then `vim` helpfully takes the name of the file I'm currently working on (`Foo.pm`) and runs `perl -Mlazy -c Foo.pm`. Since `lazy` will still be invoked when run via `-c` we don't even have to run code to install modules.  We can essentially just run a compile check and this sets the module installation chain of events into motion.  I can install missing modules without leaving my editor.
 
-Now, this is where the pedants among you speak up and say "but -c *does* run code in `BEGIN` and `CHECK` blocks.  This is correct!  See more discussion at [https://stackoverflow.com/a/12908487/406224](https://stackoverflow.com/a/12908487/406224).  Essentially code *could* be run under `-c` and it's helpful to be aware of this, for security reasons.
+Now, this is where the pedants among you speak up and say "but -c *does* run code in `BEGIN` and `CHECK` blocks".  See more discussion at [https://stackoverflow.com/a/12908487/406224](https://stackoverflow.com/a/12908487/406224).  Essentially code *could* be run under `-c` and it's helpful to be aware of this, for security reasons.
 
 ## In Your Linter
 
@@ -249,4 +262,3 @@ As an [https://github.com/w0rp/ale](Ale) + `vim` user, I've been using [SKAJI's]
 ## Wrapping Up
 
 You get the idea.  I'd be tickled if you decided to give `lazy` a spin and then headed over to [Github](https://github.com/oalders/lazy) to tell me all the things that it doesn't do correctly.  :)
-
