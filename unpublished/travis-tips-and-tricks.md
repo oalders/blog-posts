@@ -12,3 +12,5 @@ Use || true for commands which are ok to fail
 
 find  /home/travis/.cpanm/work | grep build.log | xargs cat
 
+Look at WebService::TeamCity as a practical example
+
