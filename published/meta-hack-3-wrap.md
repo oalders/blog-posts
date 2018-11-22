@@ -1,8 +1,8 @@
-As I mentioned in [my meta::hack preview post](http://www.olafalders.com/2018/11/08/metahack-is-back/), for the third year running we have had the privilege of being financially sponsored by [Booking.com](https://booking.com) and also working out of the [ServerCentral](https://www.servercentral.com/) offices in downtown Chicago in order to hack on [MetaCPAN](https://metacpan.org).  None of this would have been possible with the support of [Mark Keating](https://shadow.cat/blog/mark-keating/) and the [Enlightened Perl Organization](hhttps://ww2.enlightenedperl.org/).  Mark has (as usual) worked tirelessly to ensure that sponsor money moves in the right directions so that we are able to fund meta::hack every year.  We are extremely grateful for his help.
+As I mentioned in [my meta::hack preview post](http://www.olafalders.com/2018/11/08/metahack-is-back/), for the third year running we have had the privilege of being financially sponsored by [Booking.com](https://booking.com) and also working out of the [ServerCentral](https://www.servercentral.com/) offices in downtown Chicago in order to hack on [MetaCPAN](https://metacpan.org).  None of this would have been possible without the support of [Mark Keating](https://shadow.cat/blog/mark-keating/) and the [Enlightened Perl Organization](hhttps://ww2.enlightenedperl.org/).  Mark has (as usual) worked tirelessly to ensure that sponsor money moves in the right directions so that we are able to fund meta::hack every year.  We are extremely grateful for his help.
 
 I'd also like to thank [MaxMind](https://www.maxmind.com/en/home) (my employer) for supporting me in attending this event.
 
-This year, five of us worked on improving our corner of the Perl ecosystem.  
+This year, five of us worked on improving our corner of the Perl ecosystem.
 
 ## The Attendee List
 
@@ -14,7 +14,7 @@ This year, five of us worked on improving our corner of the Perl ecosystem.
 
 ## Getting There
 
-We all had a great time this year.  It's always nice to spend time with friends and it's great to see pet projects move ahead.  Shawn and I flew in from Toronto on the Wednesday afternoon and had lunch at a German restaurant.  
+We all had a great time this year.  It's always nice to spend time with friends and it's great to see pet projects move ahead.  Shawn and I flew in from Toronto on the Wednesday afternoon and had lunch at a German restaurant.
 
 <a href="http://www.olafalders.com/wp-content/uploads/2018/11/IMG_2298.jpg"><img src="http://www.olafalders.com/wp-content/uploads/2018/11/IMG_2298-768x1024.jpg" alt="" width="640" height="853" class="alignnone size-large wp-image-485" /></a>
 
@@ -28,7 +28,7 @@ Mickey arrived from Amsterdam a little later in the day.  The three of us met up
 
 ## Getting Started
 
-On Thursday morning, Mickey, Shawn and I got up early and got a run in before heading to the office.  We ran along the water and through Millenium Park, stopping off at "the bean" to take pictures and have a look around.  That was a very nice, if chilly, way to start the day.  
+On Thursday morning, Mickey, Shawn and I got up early and got a run in before heading to the office.  We ran along the water and through Millenium Park, stopping off at "the bean" to take pictures and have a look around.  That was a very nice, if chilly, way to start the day.
 
 <a href="http://www.olafalders.com/wp-content/uploads/2018/11/Screen-Shot-2018-11-21-at-11.02.28-AM.png"><img src="http://www.olafalders.com/wp-content/uploads/2018/11/Screen-Shot-2018-11-21-at-11.02.28-AM-1024x646.png" alt="" width="640" height="404" class="alignnone size-large wp-image-477" /></a>
 
@@ -89,4 +89,4 @@ The flight home was uneventful. There were still some deployment issues to sort 
 
 <a href="http://www.olafalders.com/wp-content/uploads/2018/11/IMG_2424.jpg"><img src="http://www.olafalders.com/wp-content/uploads/2018/11/IMG_2424-1024x768.jpg" alt="" width="640" height="480" class="alignnone size-large wp-image-488" /></a>
 
-Several of our usual attendees were not able to make it this year and we really missed them.  On the whole however, I was quite happy with what we accomplished this time around.  Moving forward we'll be able to continue to build on the work done during meta::hack and continue to improve MetaCPAN.  
+Several of our usual attendees were not able to make it this year and we really missed them.  On the whole however, I was quite happy with what we accomplished this time around.  Moving forward we'll be able to continue to build on the work done during meta::hack and continue to improve MetaCPAN.
