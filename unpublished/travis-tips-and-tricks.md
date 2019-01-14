@@ -14,3 +14,4 @@ find  /home/travis/.cpanm/work | grep build.log | xargs cat
 
 Look at WebService::TeamCity as a practical example
 
+t/testrules.yml (see api tests)
