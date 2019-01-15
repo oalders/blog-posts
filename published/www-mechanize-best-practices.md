@@ -55,15 +55,11 @@ $mech->submit_form(
 );
 </pre>
 
-If `strict_forms` finds a problem, your code will `die` with something like "**No such field 'C' at...**". Notice that the above example uses `fields` and not `with_fields`. I would encourage you to use the above incantation rather than the one below whenever possible. The reason is that `with_fields` will throw an exception *before* `strict_forms`. So, in many cases you'll end up with the less helpful error message -- the one which doesn't name the offending field(s). You may not be able to use `fields` in all cases, so when you do have to use `with_fields` keep in mind that `strict_forms` can still find additional issues (like trying to set readonly fields). My advice would be to use `strict_forms` **whenever possible**.
+If `strict_forms` finds a problem, your code will `die` with something like "**No such field 'C' at...**". 
 
-<pre>my $mech = WWW::Mechanize->new;
-$mech->get($some_url);
-$mech->submit_form(
-    with_fields  => { A => 'foo', B => 'bar', C => 'baz' },
-    strict_forms => 1,
-);
-</pre>
+Notice that the above example uses `fields` and not `with_fields`. I would encourage you to use `fields` with `strict_forms` whenever possible. The reason is that `with_fields` will throw an exception *before* `strict_forms` is able to perform any validation. So, in many cases you'll end up with the less helpful error message -- the one which doesn't name the offending field(s). 
+
+If for some reason, you need `with_fields` for your form selection, keep in mind that `strict_forms` can still find additional issues (like trying to set readonly fields). My advice would be to use `strict_forms` **whenever possible** and to use `with_fields` only in cases where `fields` + `strict_forms` is not possible.
 
 In summary, TIMTOWDI, but here's the order of preference for incantations of `submit_form`:
 
