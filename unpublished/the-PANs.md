@@ -10,6 +10,10 @@ The Comprehensive Perl Archive Network.  **CPAN** is a repository (or collection
 
 **PAUSE** is the "**P**erl **A**uthor **U**pload **SE**rver".  This isn't strictly one of the **PAN**s, but it does belong in a discussion of the various moving parts associated with **CPAN**.  **PAUSE** is the administrative layer which exists over **CPAN**.  **PAUSE** controls the processes of assigning author names to users, accepting **CPAN** uploads and deciding (via [02packages.txt](https://cpan.metacpan.org/modules/02packages.details.txt)) which files are authorized (ie official) and which are not.
 
+See this discussion of [the PAUSE permissions system](http://perladvent.org/2013/2013-12-08.html) for more information on how **PAUSE** regulates uploads.  (Note that the `f` permissions as referenced in this article no longer exists on PAUSE.  Any `f` permissions have now been replaced by `m`.)
+
+See also this post on [viewing module permissions on MetaCPAN](http://www.olafalders.com/2017/05/13/viewing-your-module-permissions-on-metacpan/).
+
 ## MetaCPAN
 
 **MetaCPAN** is layer on top of **CPAN**.  Initially its sole purpose was to provide a web API which would parse **CPAN** module metadata and serve up information about the various modules.  Hence the `meta` in **MetaCPAN**.  The **MetaCPAN** API is the core of **MetaCPAN**'s functionality.
