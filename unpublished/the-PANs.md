@@ -64,7 +64,13 @@ Lower case `cpan` is the name of (probably) the oldest **CPAN** installer client
 
 ## cpanp
 
-`cpanp` is an iteration on the functionality which was brought to us by the `cpan` client.  It was initially easier to set up than `cpan` and had more options. [Read the docs](https://metacpan.org/pod/distribution/CPANPLUS/bin/cpanp).
+`cpanp` is an iteration on the functionality which was brought to us by the `cpan` client.  It was initially easier to set up than `cpan` and had more options.
+
+[TUX](https://metacpan.org/author/HMBRAND) says:
+
+> `cpanp` is the user interface (CLI) to [CPANPLUS](https://metacpan.org/pod/CPANPLUS), a module that once tried to extend and generalize cpan/CPAN but is now obsolete and removed from CORE.
+
+[Read the docs](https://metacpan.org/pod/distribution/CPANPLUS/bin/cpanp).
 
 ## cpanm
 
