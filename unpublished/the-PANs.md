@@ -12,7 +12,7 @@ The Comprehensive Perl Archive Network.  **CPAN** is a repository (or collection
 
 ## MetaCPAN
 
-**MetaCPAN** is layer on top of **CPAN**.  Initially it was conceived of as a web API which would parse **CPAN** module metadata and serve up information about the various modules.  Hence the `meta` in **MetaCPAN**.  The **MetaCPAN** API is the core of **MetaCPAN**'s functionality.
+**MetaCPAN** is layer on top of **CPAN**.  Initially its sole purpose was to provide a web API which would parse **CPAN** module metadata and serve up information about the various modules.  Hence the `meta` in **MetaCPAN**.  The **MetaCPAN** API is the core of **MetaCPAN**'s functionality.
 
 Following the publishing of the API, a web front end was created. This search engine, now known simply as [metacpan.org](https://metacpan.org), relies exclusively on the **MetaCPAN** API to serve up its results.  So, while most people may think of the search site as **MetaCPAN** itself, it's really just one part of the project.
 
