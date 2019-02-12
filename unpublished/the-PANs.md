@@ -8,7 +8,7 @@ The Comprehensive Perl Archive Network.  **CPAN** is a repository (or collection
 
 ## PAUSE
 
-**PAUSE** is the "Perl Author Upload Server".  This isn't strictly one of the **PAN**s, but it does belong in a discussion of the various moving parts associated with **CPAN**.  **PAUSE** is the administrative layer which exists over **CPAN**.  **PAUSE** controls the processes of assigning author names to users, accepting **CPAN** uploads and deciding (via [02packages.txt](https://cpan.metacpan.org/modules/02packages.details.txt)) which files are authorized (ie official) and which are not.
+**PAUSE** is the "**P**erl **A**uthor **U**pload **SE**rver".  This isn't strictly one of the **PAN**s, but it does belong in a discussion of the various moving parts associated with **CPAN**.  **PAUSE** is the administrative layer which exists over **CPAN**.  **PAUSE** controls the processes of assigning author names to users, accepting **CPAN** uploads and deciding (via [02packages.txt](https://cpan.metacpan.org/modules/02packages.details.txt)) which files are authorized (ie official) and which are not.
 
 ## MetaCPAN
 
@@ -24,15 +24,15 @@ If you use [backpan.metacpan.org](https://backpan.metacpan.org) or [cpan.metacpa
 
 ## MiniCPAN
 
-Sometimes you want a copy of CPAN for when you're on the go, or just not able to get fast Internet access or for various other reasons.  For such occasions, you can create a MiniCPAN, which is essentially a copy of all of the latest modules on CPAN.  Since the older versions of modules are not included in a fresh MiniCPAN, it can be much more compact than a full CPAN mirror.  I use a MiniCPAN when I'm in airplane mode -- literally when I'm on an airplane -- because there are often times when I'm working on something while in the air and I need to install a Perl module *right now*!  See [CPAN::Mini](https://metacpan.org/pod/CPAN::Mini) for more information.
+Sometimes you want a copy of **CPAN** for when you're on the go, or just not able to get fast Internet access or for various other reasons.  For such occasions, you can create a **MiniCPAN**, which is essentially a copy of all of the latest modules on **CPAN**.  Since the older versions of modules are not included in a fresh **MiniCPAN**, it can be much more compact than a full **CPAN** mirror.  I use a **MiniCPAN** when I'm in airplane mode -- literally when I'm on an airplane -- because there are often times when I'm working on something while in the air and I need to install a Perl module *right now*!  See [CPAN::Mini](https://metacpan.org/pod/CPAN::Mini) for more information.
 
 ## DarkPAN
 
-Many of us have heard of the DarkPAN, but nailing down exactly what it is can be difficult, so I asked on [Twitter](https://twitter.com/olafalders/status/1034113626960011264).  Based on my non-scientific poll, most people felt that DarkPAN was a blanket term for Perl code which does not exist in the CPAN.  A smaller group of people thought of the DarkPAN as a MiniCPAN which contains Perl code not in the CPAN.
+Many of us have heard of the **DarkPAN**, but nailing down exactly what it is can be difficult, so I asked on [Twitter](https://twitter.com/olafalders/status/1034113626960011264).  Based on my non-scientific poll, most people felt that **DarkPAN** was a blanket term for Perl code which does not exist in the **CPAN**.  A smaller group of people thought of the **DarkPAN** as a **MiniCPAN** which contains Perl code not in the **CPAN**.
 
 ## GrayPAN
 
-Along with my Twitter poll, [I also solicited thoughts on Reddit](https://www.reddit.com/r/perl/comments/9aqipz/what_is_the_darkpan/), which brought up the GrayPAN.  For this part, I'm just going to quote [KENTNL](https://metacpan.org/author/KENTNL) who says a GrayPAN
+Along with my Twitter poll, [I also solicited thoughts on Reddit](https://www.reddit.com/r/perl/comments/9aqipz/what_is_the_darkpan/), which brought up the **GrayPAN**.  For this part, I'm just going to quote [KENTNL](https://metacpan.org/author/KENTNL) who says a **GrayPAN**
 
 > is publicly accessible, but published outside the cpan infrastructure, resulting in a codebase that is factually public, but functionally non existent from the perspective of CPAN, as things can't really depend on it, and subsequently doesn't get subjected to multi Arch testing with every release, and critical breakage is likely to go unnoticed until too late.
 
@@ -52,7 +52,7 @@ I think that's a better summary than I could provide.
 
 # The Lower Case PANs
 
-After much discussion about CPAN and friends.  What about `cpan`, `cpanp`, `cpanm` and even `cpm`?  These all have one thing in common.  They are utilities for installing modules from **CPAN**.
+After much discussion about **CPAN** and friends.  What about `cpan`, `cpanp`, `cpanm` and even `cpm`?  These all have one thing in common.  They are utilities for installing modules from **CPAN**.
 
 ## cpan
 
