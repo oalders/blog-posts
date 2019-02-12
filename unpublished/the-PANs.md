@@ -30,6 +30,10 @@ Sometimes you want a copy of **CPAN** for when you're on the go, or just not abl
 
 Many of us have heard of the **DarkPAN**, but nailing down exactly what it is can be difficult, so I asked on [Twitter](https://twitter.com/olafalders/status/1034113626960011264).  Based on my non-scientific poll, most people felt that **DarkPAN** was a blanket term for Perl code which does not exist in the **CPAN**.  A smaller group of people thought of the **DarkPAN** as a **MiniCPAN** which contains Perl code not in the **CPAN**.
 
+To quote [TUX](https://metacpan.org/author/HMBRAND), a **DarkPAN** is:
+
+> the modules and scripts used in the wild (including non-OpenSourced company stuff) that is not publicly available (through CPAN). It is the part of perl that we cannot index, cannot analyze and cannot test when we upgrade perl.
+
 ## GrayPAN
 
 Along with my Twitter poll, [I also solicited thoughts on Reddit](https://www.reddit.com/r/perl/comments/9aqipz/what_is_the_darkpan/), which brought up the **GrayPAN**.  For this part, I'm just going to quote [KENTNL](https://metacpan.org/author/KENTNL) who says a **GrayPAN**
