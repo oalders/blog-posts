@@ -20,7 +20,7 @@ Following the publishing of the API, a web front end was created. This search en
 
 **BackPAN** is an aggregation of what currently is and what at one point was on **CPAN**.  For various reasons, modules can be deleted from **CPAN** before they have outlived their usefulness to the general public.  If you're looking for a module which can no longer be found on **CPAN**, you can try looking on a **BackPAN**.  There are various **BackPAN**s and, unlike **CPAN** itself, there is no one canonical **BackPAN**.  This leads to a confusing situation where not every **BackPAN** may have exactly the same files, so this bears keeping in mind.
 
-If you use **MetaCPAN**'s **CPAN** repository as the mirror which your **CPAN** install from, you are actually using a **BackPAN**, so in general you should be able to find what you need there.
+If you use [backpan.metacpan.org](https://backpan.metacpan.org) or [cpan.metacpan.org](https://cpan.metacpan.org) as the mirror which your **CPAN** install from, you are actually using a **BackPAN**, so in general you should be able to find what you need there. [backpan.metacpan.org](https://backpan.metacpan.org) is an alias to [cpan.metacpan.org](https://cpan.metacpan.org), so just use whichever name you prefer.
 
 ## MiniCPAN
 
