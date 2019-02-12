@@ -4,7 +4,7 @@ When it comes to **CPAN**, Perl has a lot of related acronyms, many of which can
 
 ## CPAN
 
-The Comprehensive Perl Archive Network.  **CPAN** is a repository (or collection) of files which various authors have made available.  There is one canonical **CPAN** repository and all other **CPAN**s act as mirrors of either the canonical **CPAN** or of an additional mirror.  This means that **CPAN** is distributed geographically.  When you install from **CPAN**, you are, in many cases, actually installing from one of the **CPAN** mirrors.  Choosing one which is geographically closer to you, may result in faster download speeds, however this is not always necessary.  For instance, if you choose [cpan.metacpan.org](https://cpan.metacpan.org) as your mirror, [Fastly](https://www.fastly.com/) will handle figuring out the fastest way to get the file to you.
+The Comprehensive Perl Archive Network.  **CPAN** is a repository (or collection) of files which various authors have made available.  There is one canonical **CPAN** repository and all other **CPAN**s act as mirrors of either the canonical **CPAN** or of an additional mirror.  This means that **CPAN** is distributed geographically.  When you install from **CPAN**, you are, in many cases, actually installing from one of the **CPAN** mirrors.  Choosing one which is geographically closer to you may result in faster download speeds, however this is not always necessary.  For instance, if you choose [cpan.metacpan.org](https://cpan.metacpan.org) as your mirror, [Fastly](https://www.fastly.com/) will handle figuring out the fastest way to get the file to you.
 
 ## PAUSE
 
