@@ -1,3 +1,5 @@
+This post has been brought to you by [booking.com](https://booking.com), one of the Platinum sponsors of the 2018 meta::hack conference:
+
 # About the Various PANs
 
 When it comes to **CPAN**, Perl has a lot of related acronyms, many of which can be hard to understand.  Let's take a moment to discuss some of them now.  This discussion will focus mostly on the PANs.  Let's start with the most popular PAN in Perl:
