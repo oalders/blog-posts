@@ -89,3 +89,5 @@ Lower case `cpan` is the name of (probably) the oldest **CPAN** installer client
 # In Conclusion
 
 If you found any of this confusing, you are not alone.  To truly understand all of these tools (and even their names) it helps to understand the historical context in which they came to exist.  There's a lot of developer and community effort which has gone into the development of these tools and resources.  I'm very grateful for it as these tools save me countless hours of my own time every week. Hopefully this little walk down **CPAN**'s memory lane has been helpful to you.  In future, if a friend or colleague is confused as to the meaning of any of these terms, you'll be well placed to bore them to tears with the details.
+
+If you'd like to discuss this post, [/r/perl](https://www.reddit.com/r/perl/comments/asczvg/about_the_various_pans/) might be a good place for that.
