@@ -1,3 +1,10 @@
+This post is brought to you by ServerCentral Turing Group in Chicago, a Platinum level sponsor of the meta::hack conference in 2018. For the past 3 years we've had the privilege of working out of their office space in Chicago.
+
+![](https://www.servercentral.com/wp-content/uploads/2018/12/SCTG-Logo.png
+)
+
+ServerCentral Turing Group (SCTG) is a trusted provider of AWS consulting, managed clouds, cloud-native software development, and global data center services for startups, enterprises, and Fortune 500 companies.
+
 # Managing Your Travis CI Config Files with App::CISetup
 
 If you write software, you (hopefully) write tests.  If you write tests, it's easy to forget to run them.  Using Continuous Integration (CI) for your software is one way around this.  Many of us use [Travis CI](https://travis-ci.org) for CI.  In this post we'll go over ways to make your Travis CI faster and hopefully better.
