@@ -86,7 +86,7 @@ An issue that has plagued us for years is that some users have had issues linkin
 
 As far as deployment goes, we're going to deploy these new Mojo OAuth flows while leaving the existing flows in place, since they can co-exist and are agnostic about each other.  Once we're satisfied that the new system is working, we'll flip the switch.  This seemed like the most disruptive and least risky way of approaching the changes.  Some code was prepared for deployment at PTS, but I'll need to keep working at this in order to finish it up.
 
-# Goodbye Faceook
+# Goodbye Facebook
 
 A side effect of the OAuth work is we have removed Facebook authentication.  It has been broken for many months and nobody has opened a ticket that I'm aware of.
 
@@ -122,7 +122,7 @@ One of the more interesting things about this restaurant was the low ceiling bea
 
 ![Marlow Giggling Squid](http://olafalders.com/static/images/pts-2019/marlow-giggling-squid.jpg)
 
-*The Giggling Squid) helpfully notes how much vertical clearance you need to get past various parts of the establishment.*
+*The Giggling Squid helpfully notes how much vertical clearance you need to get past various parts of the establishment.*
 
 On Friday morning several of us went to the gym for a workout.  I used to work in a gym after my first year of university, so I figured I knew my way around the place.  However, as I was struggling with one of the machines, [Paul Johnson](https://metacpan.org/author/PJCJ) kindly pointed out to me that I was doing it backwards.
 
