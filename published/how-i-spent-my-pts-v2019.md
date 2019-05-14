@@ -6,7 +6,7 @@ I was fortunate to be able to attend PTS again this year.  I'd like to thank my 
 
 This year we gathered in the UK, outside of London, to work out of Bisham Abbey, while staying in the adjacent National Sports Centre, which is part of the same complex.
 
-![](static/images/pts-2019/bisham-abbey.jpg)
+![](/static/images/pts-2019/bisham-abbey.jpg)
 
 # The Sponsors
 
@@ -32,9 +32,9 @@ This event simply wouldn't take place without the financial backing of our wonde
 
 These past few years, as the MetaCPAN contingent has grown, we've set up our own table at PTS.  This year we had [Leo Lapworth](https://metacpan.org/author/LLAP), [Mickey Nasriachi](https://metacpan.org/author/MICKEY), [Graham Knop](https://metacpan.org/author/HAARG) and [Shawn Sorichetti](https://metacpan.org/author/SSORICHE) and me.  [Doug Bell](https://metacpan.org/author/PREACTION) sat with us as well, while hacking on CPAN Testers.  Sadly, [Joel Berger](https://metacpan.org/author/JBERGER) was not able to attend this year or we would have forced him to sit with us as well.  [Shawn Sorichetti](https://metacpan.org/author/SSORICHE) was a new addition to our PTS table.  He had joined us at meta::hack and helped us get a lot done there, so it was great to have him hacking with us again.  He has a lot of experience with Docker and Ansible, [which we took advantage of](https://ssoriche.com/posts/2019/04/returning-from-pts-2019/).
 
-![The MetaCPAN table. Photo by Wendy: https://www.flickr.com/photos/wendyga/](static/images/pts-2019/table.jpg)
+![The MetaCPAN table. Photo by Wendy: https://www.flickr.com/photos/wendyga/](/static/images/pts-2019/table.jpg)
 
-Left to right: Mickey Nasriachi, Olaf Alders, Leo Lapworth and Shawn Sorichetti.  Missing from this photo is Graham Knop.
+*Left to right: Mickey Nasriachi, Olaf Alders, Leo Lapworth and Shawn Sorichetti.  Missing from this photo is Graham Knop. Photo by Wendy: https://www.flickr.com/photos/wendyga/*
 
 # The Goals
 
@@ -121,7 +121,7 @@ On the Thursday evening, a large group of us went out to a local Thai restaurant
 
 One of the more interesting things about this restaurant was the low ceiling beams, which were a concussion waiting to happen.  No concussions were witnessed however.  This is likely due in no small part to the fact that low beams were well marked with the amount of clearance required to pass safely.   After a fantastic meal we headed back to the venue on foot.
 
-![Marlow Giggling Squid](static/images/pts-2019/marlow-giggling-squid.jpg)
+![Marlow Giggling Squid](/static/images/pts-2019/marlow-giggling-squid.jpg)
 
 *The Giggling Squid) helpfully notes how much vertical clearance you need to get past various parts of the establishment.*
 
@@ -129,7 +129,9 @@ On Friday morning several of us went to the gym for a workout.  I used to work i
 
 After a productive Friday, we had a really unique group meal in the Abbey.  We sat in a room which was long enough to fit us all at one table (or a series of tables?) and a three course meal was served to us.  It was the only meal where the entire group was together, sitting down at the same table and it was a really nice experience.
 
-![Photo by Wendy: https://www.flickr.com/photos/wendyga/](static/images/pts-2019/group-dinner.jpg)
+![Photo by Wendy: https://www.flickr.com/photos/wendyga/](/static/images/pts-2019/group-dinner.jpg)
+
+*Photo by Wendy: https://www.flickr.com/photos/wendyga/*
 
 On Saturday morning several of us went outside for a hike.  We ran into [BINGOS](https://metacpan.org/author/BINGOS) in the lobby.  He had been up all night and hadn't slept.  We invited him to join us, which he did, since he wasn't sleeping anyway.
 
@@ -143,11 +145,11 @@ As far as London goes, Shawn and I knew that the London Marathon had taken place
 
 The city was packed.  We eventually made it to a neighbourhood which wasn't as busy and had some fish and chips.  We had wanted to tick this particular box back at Marlow, but there was one standout Google Review that I just wasn't able to get my head around.
 
-![](static/images/pts-2019/marlow-fish-and-chips.png)
+![](/static/images/pts-2019/marlow-fish-and-chips.png)
 
 The London fish and chips were great and I'm happy to report that the restrooms had not been abused in the manner described above.  We also stopped at a pub on the way back.  When in Rome...
 
-![](static/images/pts-2019/london-pub.jpg)
+![](/static/images/pts-2019/london-pub.jpg)
 
 *Nice little place. I have no idea what the Canadian flag was there for.*
 
@@ -156,4 +158,3 @@ On Monday morning we got up and had some croissants and canelé for breakfast at
 PTS was, as always, a great experience.  I feel like this year we made particularly good progress.  Some years I've gotten a bit frustrated with what I was working on, but this year it was surprisingly free of roadblocks and really felt like time well spent.
 
 I want to thank [Neil](https://metacpan.org/author/NEILB), [Book](https://metacpan.org/author/BOOK) and [Laurent](https://metacpan.org/author/LBOIVIN) for all of their work in organising this event.  I would say it's a thankless job, but I just thanked them, so that would be a lie.  Having worked to organize meta::hack, which is quite small, I can only imagine how much work and organizational skills go into running a PTS that went as smoothly as this one.  I look forward to future PTS events, hoping that I get invited again!
-
