@@ -6,7 +6,7 @@ I was fortunate to be able to attend PTS again this year.  I'd like to thank my 
 
 This year we gathered in the UK, outside of London, to work out of Bisham Abbey, while staying in the adjacent National Sports Centre, which is part of the same complex.
 
-![](/static/images/pts-2019/bisham-abbey.jpg)
+![](http://olafalders.com/static/images/pts-2019/bisham-abbey.jpg)
 
 # The Sponsors
 
@@ -32,7 +32,7 @@ This event simply wouldn't take place without the financial backing of our wonde
 
 These past few years, as the MetaCPAN contingent has grown, we've set up our own table at PTS.  This year we had [Leo Lapworth](https://metacpan.org/author/LLAP), [Mickey Nasriachi](https://metacpan.org/author/MICKEY), [Graham Knop](https://metacpan.org/author/HAARG) and [Shawn Sorichetti](https://metacpan.org/author/SSORICHE) and me.  [Doug Bell](https://metacpan.org/author/PREACTION) sat with us as well, while hacking on CPAN Testers.  Sadly, [Joel Berger](https://metacpan.org/author/JBERGER) was not able to attend this year or we would have forced him to sit with us as well.  [Shawn Sorichetti](https://metacpan.org/author/SSORICHE) was a new addition to our PTS table.  He had joined us at meta::hack and helped us get a lot done there, so it was great to have him hacking with us again.  He has a lot of experience with Docker and Ansible, [which we took advantage of](https://ssoriche.com/posts/2019/04/returning-from-pts-2019/).
 
-![The MetaCPAN table. Photo by Wendy: https://www.flickr.com/photos/wendyga/](/static/images/pts-2019/table.jpg)
+![The MetaCPAN table. Photo by Wendy: https://www.flickr.com/photos/wendyga/](http://olafalders.com/static/images/pts-2019/table.jpg)
 
 *Left to right: Mickey Nasriachi, Olaf Alders, Leo Lapworth and Shawn Sorichetti.  Missing from this photo is Graham Knop. Photo by Wendy: https://www.flickr.com/photos/wendyga/*
 
@@ -108,10 +108,9 @@ I learned that [cpm](https://metacpan.org/pod/App::cpm) means "CPAN Package Mana
 
 Although I was able to make it to PTS this year, it was a bit harder, since I had a company summit at MaxMind scheduled for the same week.  My manager was very supportive of me attending PTS, so I was able to fly from Toronto to Boston on a Monday and then fly from Boston to London the following Wednesday morning.  I had to miss two days of company meetings in order to do this, but it meant having more productive time at PTS.  I got to bed at 1:15 AM on Wednesday morning.  I got up two hours later at 3:15 AM and got ready to head to Logan.  I had no delays and I arrived at Heathrow Wednesday evening where Leo Lapworth was waiting for me.  We waited for [Dan Book](https://metacpan.org/author/GRINNZ) to arrive and then headed down to Marlow.  We took a wrong turn on the way down which added 30 minutes to our trip.  It also meant we'd be arriving at the pub *after* the kitchen had closed.  I texted Neil and he was kind enough to order and pay for our meals so that they were waiting for us when we finally arrived.  He's a real diamond geezer.  I was able to repay him in the currency of Thai food later in the week.
 
-
 We left the pub after the bell for last call had been rung.  When we arrived at the National Sports Centre we were told there was good news and bad news.  The good news was that we had rooms and the bad news was that we had to share our rooms, due to an overbooking.  So, Leo and I bunked together for the night.  No troubles there.  It reminded me of the old days of PTS where having a roommate was part of the arrangement.
 
-A warm breakfast was provided at the National Sports Centre on Thursday morning.  At breakfast I was able to connect with many of the attendees whom I had missed on the previous evening.  After finishing up there we made our way down to Bisham Abbey in order to get to work.  The venue itself is historical and quite well suited to this kind of event.  Perhaps even more importantly, the seats were comfortable and the wifi was solid.  If you have uncomfortable seats or unreliable wifi, it makes for a very long four days.  Luckily this part of things was rock solid, which I was very happy about.
+A warm breakfast was provided at the National Sports Centre on Thursday morning.  At breakfast I was able to connect with many of the attendees whom I had missed on the previous evening.  After finishing up there we made our way down to Bisham Abbey in order to get to work.  The venue itself is historic and quite well suited to this kind of event.  Perhaps even more importantly, the seats were comfortable and the wifi was solid.  If you have uncomfortable seats or unreliable wifi, it makes for a very long four days.  Luckily this part of things was rock solid, which I was very happy about.
 
 On the Thursday evening, a large group of us went out to a local Thai restaurant in Marlow.  Neil met us there, with his long flowing locks, looking like he'd just stepped out of one of those blow dry salons or perhaps a TV advert for a luxurious shampoo and conditioner.  
 
@@ -121,7 +120,7 @@ On the Thursday evening, a large group of us went out to a local Thai restaurant
 
 One of the more interesting things about this restaurant was the low ceiling beams, which were a concussion waiting to happen.  No concussions were witnessed however.  This is likely due in no small part to the fact that low beams were well marked with the amount of clearance required to pass safely.   After a fantastic meal we headed back to the venue on foot.
 
-![Marlow Giggling Squid](/static/images/pts-2019/marlow-giggling-squid.jpg)
+![Marlow Giggling Squid](http://olafalders.com/static/images/pts-2019/marlow-giggling-squid.jpg)
 
 *The Giggling Squid) helpfully notes how much vertical clearance you need to get past various parts of the establishment.*
 
@@ -129,7 +128,7 @@ On Friday morning several of us went to the gym for a workout.  I used to work i
 
 After a productive Friday, we had a really unique group meal in the Abbey.  We sat in a room which was long enough to fit us all at one table (or a series of tables?) and a three course meal was served to us.  It was the only meal where the entire group was together, sitting down at the same table and it was a really nice experience.
 
-![Photo by Wendy: https://www.flickr.com/photos/wendyga/](/static/images/pts-2019/group-dinner.jpg)
+![Photo by Wendy: https://www.flickr.com/photos/wendyga/](http://olafalders.com/static/images/pts-2019/group-dinner.jpg)
 
 *Photo by Wendy: https://www.flickr.com/photos/wendyga/*
 
@@ -137,19 +136,19 @@ On Saturday morning several of us went outside for a hike.  We ran into [BINGOS]
 
 After a productive Saturday a group of us went to a really nice Indian restaurant in Marlow where we spotted various other pockets of PTS attendees.
 
-On Sunday morning several of us once again took advantage of the gym.  This is the first PTS I've been to where a gym was an option.  It was kind of surreal to start the day seeing [Mickey](https://metacpan.org/author/MICKEY) on a stair climber or [Ingy](https://metacpan.org/author/INGY) running on a treadmill or [RJBS](https://metacpan.org/author/RJBS) doing leg presses.  I really liked that part of the experience as well.
+On Sunday morning several of us once again took advantage of the gym.  This is the first PTS I've been to where a gym was an option.  It was kind of surreal to start the day seeing [Mickey](https://metacpan.org/author/MICKEY) on a stair climber or [Ingy](https://metacpan.org/author/INGY) running on a treadmill or [RJBS](https://metacpan.org/author/RJBS) doing leg presses.
 
-After Sunday lunch, Leo took me and Shawn back to London where we had booked a hotel in Covent Garden.  We met [simbabque](https://metacpan.org/author/SIMBABQUE) as we were literally heading out the door.  We didn't get a chance to chat, but at least now I know what he looks like.
+After Sunday lunch, Leo took me and Shawn back to London where we had booked a hotel in Covent Garden.  We met [simbabque](https://metacpan.org/author/SIMBABQUE) as we were literally heading out the door of Bisham Abbey.  We didn't get a chance to chat, but at least now I know what he looks like.
 
 As far as London goes, Shawn and I knew that the London Marathon had taken place earlier that day, but I just kind of assumed that would mostly be a done deal by the time we got into town -- just a bit of cleanup and maybe some stragglers.  I had no appreciation of the scale of this event.  When we walked down to Buckingham Palace around 5:30 PM there were still hundreds of people running (and sometimes walking) to the finish line.  The official announcement was that 9,000 out of 41,000 people had yet to cross the finish line.  We saw a man running while dressed as a rotary phone.  Sadly, we missed seeing [Big Ben](https://www.bbc.com/news/uk-england-london-48084878).
 
 The city was packed.  We eventually made it to a neighbourhood which wasn't as busy and had some fish and chips.  We had wanted to tick this particular box back at Marlow, but there was one standout Google Review that I just wasn't able to get my head around.
 
-![](/static/images/pts-2019/marlow-fish-and-chips.png)
+![](http://olafalders.com/static/images/pts-2019/marlow-fish-and-chips.png)
 
 The London fish and chips were great and I'm happy to report that the restrooms had not been abused in the manner described above.  We also stopped at a pub on the way back.  When in Rome...
 
-![](/static/images/pts-2019/london-pub.jpg)
+![](http://olafalders.com/static/images/pts-2019/london-pub.jpg)
 
 *Nice little place. I have no idea what the Canadian flag was there for.*
 
