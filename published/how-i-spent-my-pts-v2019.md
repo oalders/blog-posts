@@ -128,9 +128,9 @@ On Friday morning several of us went to the gym for a workout.  I used to work i
 
 After a productive Friday, we had a really unique group meal in the Abbey.  We sat in a room which was long enough to fit us all at one table (or a series of tables?) and a three course meal was served to us.  It was the only meal where the entire group was together, sitting down at the same table and it was a really nice experience.
 
-![Photo by Wendy: https://www.flickr.com/photos/wendyga/](http://olafalders.com/static/images/pts-2019/group-dinner.jpg)
+![Photo by Lee Johnson: https://metacpan.org/author/LEEJO](http://olafalders.com/static/images/pts-2019/group-dinner.jpg)
 
-*Photo by Wendy: https://www.flickr.com/photos/wendyga/*
+*Photo by Lee Johnson: https://metacpan.org/author/LEEJO*
 
 On Saturday morning several of us went outside for a hike.  We ran into [BINGOS](https://metacpan.org/author/BINGOS) in the lobby.  He had been up all night and hadn't slept.  We invited him to join us, which he did, since he wasn't sleeping anyway.
 
