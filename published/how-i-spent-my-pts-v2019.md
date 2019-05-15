@@ -60,7 +60,7 @@ As part of the above process, we spent some time on expanding the Docker configu
 
 # Making new uploads discoverable faster
 
-Moving on from Docker, I was also able to speed up the amount of time it takes to view new modules on MetaCPAN.  When you upload a new release to MetaCPAN there's a lag time before it shows up as the latest, indexed module.  This is due to several things.
+Moving on from Docker, I was also able to speed up the amount of time it takes to view new modules on MetaCPAN.  When you upload a new release to CPAN there's a lag time before it shows up as the latest, indexed module.  This is due to several things.
 
 * We need to rsync the module from PAUSE
 * We need to rsync an updated 02packages file from PAUSE
@@ -78,7 +78,9 @@ Mickey spent a lot of time getting into the guts of the indexer.  This code is n
 
 # Fixing PAUSE account connection
 
-For a good while there has been a problem with our previous mail sender in getting messages delivered to @cpan.org email addresses.  This is how we verify PAUSE authors on [metacpan.org](https://metacpan.org).  [FastMail](https://fastmail.com) solved this by becoming an email sponsor for us.  Shortly before PTS we were able to merge the code to switch mail delivery to FastMail.  I'm happy to report that authors are now once again able to connect their PAUSE accounts to their MetaCPAN profiles.  There are still some related issues to be worked out, but it's better than it once was.
+For a good while there has been a problem with our previous mail sender in getting messages delivered to @cpan.org email addresses.  This is how we verify PAUSE authors on [metacpan.org](https://metacpan.org).  [FastMail](https://fastmail.com) solved this by becoming an email sponsor for us.  (I should add that FastMail is a PTS sponsor as well.)
+
+Shortly before PTS we were able to merge the code to switch mail delivery to FastMail.  I'm happy to report that authors are now once again able to connect their PAUSE accounts to their MetaCPAN profiles.  There are still some related issues to be worked out, but it's better than it once was.
 
 # Ripping out the guts of our OAuth
 
