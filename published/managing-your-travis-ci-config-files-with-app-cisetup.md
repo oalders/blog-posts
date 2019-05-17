@@ -1,4 +1,4 @@
-This post is brought to you by ServerCentral Turing Group in Chicago, a Platinum level sponsor of the meta::hack conference in 2018. For the past 3 years we've had the privilege of working out of their office space in Chicago.
+This post is brought to you by ServerCentral Turing Group in Chicago, a Platinum level sponsor of the meta::hack conference in 2018. For the past 3 years we've had the privilege of having meta::hack at the ServerCentral office space in Chicago.
 
 ![](https://www.servercentral.com/wp-content/uploads/2018/12/SCTG-Logo.png
 )
