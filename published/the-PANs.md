@@ -16,6 +16,18 @@ See this discussion of [the PAUSE permissions system](http://perladvent.org/2013
 
 See also this post on [viewing module permissions on MetaCPAN](http://www.olafalders.com/2017/05/13/viewing-your-module-permissions-on-metacpan/).
 
+### Perl6 on PAUSE
+
+> PAUSE is also being used for Perl 6 distributions. And when you do `zef install P5localtime`, it will actually download that Perl 6 distribution from the nearest CPAN mirror.
+
+Thanks to [liztormato](https://www.reddit.com/r/perl/comments/asczvg/about_the_various_pans/egtf782?utm_source=share&utm_medium=web2x) for this tip.
+
+## PrePAN
+
+If you're thinking of releasing a new module to CPAN, but you'd like some feedback first, you can post your ideas on [http://prepan.org/](http://prepan.org/).  Discussions might be about the module name, the module's interface or whether similar modules already exist.
+
+If you prefer to have such conversations via email, you can do so via [the module-authors mailing list](https://lists.perl.org/list/module-authors.html).
+
 ## MetaCPAN
 
 **MetaCPAN** is a layer on top of **CPAN**.  Initially its sole purpose was to provide a web API which would parse **CPAN** module metadata and serve up information about the various modules.  Hence the `meta` in **MetaCPAN**.  The **MetaCPAN** API is the core of **MetaCPAN**'s functionality.
