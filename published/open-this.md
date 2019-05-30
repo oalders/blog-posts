@@ -12,7 +12,8 @@ Figuring this stuff out isn't generally that hard, but it can make your day just
 
 I'll be using `vim` in examples, but [ot](https://metacpan.org/pod/ot) also supports `nvim`, `emacs`,`nano` and `pico`, defaulting to whatever you have set in `$ENV{EDITOR}`.
 
-## Following Along
+Following Along
+---------------
 
 I'll be working out of a repository at [https://github.com/oalders/git-helpers](https://github.com/oalders/git-helpers).  If you'd like to follow along:
 
@@ -21,7 +22,8 @@ git clone https://github.com/oalders/git-helpers.git
 cd git-helpers
 ```
 
-## Using a Perl Module Name
+Using a Perl Module Name
+------------------------
 
 We're now in the root of the **git-helpers** `Git` repository.  Let's say we want to open the `Git::Helpers` module.  Translating a Perl module name into a file path isn't all that hard.  Given something like `Git::Helpers`, I know that I'm likely (but not always) looking for a file called `Git/Helpers.pm`.  This could be in `lib`, `t/lib` or some custom directory.  If I know exactly where to find this file, I can invoke `vim` directly: `vim lib/Git/Helpers.pm`.
 
@@ -33,10 +35,8 @@ If the file can't be found in one of the standard lib locations, `ot` will try t
 
 `~/.plenv/versions/5.26.1/lib/perl5/site_perl/5.26.1/Git/Helpers.pm`
 
-
-
-
-## Opening a Perl Module at a Subroutine Declaration
+Opening a Perl Module at a Subroutine Declaration
+-------------------------------------------------
 
 Let's take this a step further.  What if we want to open a file for a module but we also want to go straight to the correct subroutine declaration?  Something like `Git::Helpers::is_inside_work_tree()`.  We could probably craft a fancy one-liner to do this, but today we are lazy.
 
@@ -50,7 +50,8 @@ We can do exactly the same thing for an installed module.  Try this command:
 
 In my case it opens `/.plenv/versions/5.26.1/lib/perl5/site_perl/5.26.1/Test/More.pm` at line 807, which is `sub subtest {`.
 
-## Opening a File Using a Line Number
+Opening a File Using a Line Number
+----------------------------------
 
 ### Stack Traces
 I see a lot of stack traces on any given day.  A relevant chunk of a strack trace might look like: `Died at lib/Git/Helpers.pm line 50.`
@@ -83,7 +84,8 @@ ot lib/Git/Helpers/CPAN.pm:70`
 
 This will now open `lib/Git/Helpers/CPAN.pm` at line 70.
 
-## Opening a File at an Arbitrary Line and Column
+Opening a File at an Arbitrary Line and Column
+----------------------------------------------
 
 As we saw above, `ot` can open files at the correct line number.  Let's get even lazier and have `ot` open our files at the correct line **and** column.
 
@@ -101,7 +103,8 @@ To open `lib/Git/Helpers/CPAN.pm` at line 20 and column 17, simply copy/paste th
 ot ./lib/Git/Helpers/CPAN.pm:20:17
 ```
 
-## Opening Github Links Locally:
+Opening Github Links Locally
+----------------------------
 
 Passing a full GitHub URL [https://github.com/oalders/git-helpers/blob/master/lib/Git/Helpers.pm#L50](https://github.com/oalders/git-helpers/blob/master/lib/Git/Helpers.pm#L50), to `ot` will allow you to open the file locally, if it can be found in your relative file path.
 
@@ -117,7 +120,8 @@ Passing a truncated URL path is also valid, if the path parts exist locally:
 ot lib/Git/Helpers.pm#L50
 ```
 
-## Opening a Locally Checked Out File at GitHub
+Opening a Locally Checked Out File at GitHub
+--------------------------------------------
 
 The `-b` flag will allow you to open your local files on GitHub.
 
@@ -136,7 +140,8 @@ ot -b Git::Helpers:75
 opens [https://github.com/oalders/git-helpers/blob/master/lib/Git/Helpers.pm#L75](https://github.com/oalders/git-helpers/blob/master/lib/Git/Helpers.pm#L75).
 
 
-## Opening a File in Your $ENV{PATH}
+Opening a File in Your `$ENV{PATH}`
+-----------------------------------
 
 `ot` can also be used as a shortcut to inspect files which can be found inside your `$ENV{PATH}`.
 
@@ -152,10 +157,12 @@ opens `~/.plenv/versions/5.26.1/bin/perldoc` on my machine.  You can think of th
 which perldoc | xargs -o vim
 ```
 
-## Introduction Unlocked
+Contributing
+------------
 
 If you'd like to add support for more editors or other formats of data, please [get in touch with me](https://github.com/oalders/open-this/issues) and we'll see what we can do. 
 
-## See Also
+See Also
+--------
 
 For other solutions to the problem of finding and opening files, I highly recommend [fzf](https://github.com/junegunn/fzf) and [fpp](https://github.com/facebook/PathPicker).
