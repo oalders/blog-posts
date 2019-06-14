@@ -8,7 +8,15 @@ What this basically means is that `tig` provides a text-based user interface whi
 
 *insert high level overview screenshot of UI here*
 
-I'm going to give you a quick introduction to `tig` here.  Many of my examples have been poached directly from the excellent `tig` man page.  I highly recommend reading it for further information.    
+I'm going to give you a quick introduction to `tig` here.  Many of my examples have been poached directly from the excellent `tig` man page.  I highly recommend reading it for further information.
+
+## Installation
+
+* Fedora and RHEL: `sudo dnf install tig`
+* Ubuntu and Debian: `sudo apt install tig`
+* MacOS: `brew install tig`
+
+See [the official installation instructions](https://jonas.github.io/tig/INSTALL.html) for even more options.
 
 ## Browse commits in your current branch
 
