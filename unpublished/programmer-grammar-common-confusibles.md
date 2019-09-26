@@ -11,12 +11,14 @@ During code reviews at work, we've traditionally had a lot of emphasis on naming
 In many cases, it's helpful to have a subroutine name which reads like English. For example:
 
 * `make_me_a_sandwich()`
+
 * `authenticate_user()`
+
 * `delete_session()`
 
 Using this kind of a naming scheme makes it obvious what your subroutine does. If you're going to do this, it helps to be consistent, as that will lead to the least confusion.
 
-The examples above all follow a `verb + noun` pattern and each example stands on its own as a proper sentence.  How about this name?
+The examples above all follow a `verb + noun` pattern and each example stands on its own as a proper sentence.  How about this name?
 
 ###`setup_user_account()`
 
@@ -40,7 +42,7 @@ We've seen above that it's *generally* nice to use subroutine names which contai
 
 A class name made strictly of nouns is not going to boil down to a readable sentence -- it doesn't have to. However, stringing together a random collection of nouns and verbs isn't going to improve clarity about what the class can do. If we treat the class name as a collection of nouns we get: `Model::User::Setup` or `Noun::Noun::Noun` Our class naming now follows a consistent pattern and is less confusing.
 
-Your mileage may vary with the above advice.  In fact, you may reject it completely.  However you decide to name your classes, there can be a lot of value in consistency.  Keep in mind that the mere act of taking the time to consider these issues when creating class names can lead to more readable code.
+Your mileage may vary with the above advice.  In fact, you may reject it completely.  However you decide to name your classes, there can be a lot of value in consistency.  Keep in mind that the mere act of taking the time to consider these issues when creating class names can lead to more readable code.
 
 ## Problem #3: Nouns and Verbs on Buttons
 
@@ -55,11 +57,13 @@ The occasion where a hard rule should be applied is in a *Call to Action*, ie if
 As a very general example, a menu of mostly nouns might look like:
 
 | Contact Info | About Us | Login | Support |
+
 |--- |--- |--- |---
 
 A menu made up of verbs (calls to action) might look like:
 
 |Contact Us | Learn About Us | Log In | Get Support|
+
 |--- |--- |--- |---
 
 I'm not proposing hard and fast rules for menu items, but I do think it's helpful to consider nouns vs verbs when putting them together.
@@ -69,22 +73,40 @@ I'm not proposing hard and fast rules for menu items, but I do think it's helpfu
 This is by no means complete list of nouns and verbs which can trip us up, but it's a good starting point.
 
 |Noun|Verb|
+
 |--- |--- |
+
 |backup|back up|
+
 |breakup|break up|
+
 |cleanup|clean up|
+
 |login|log in|
+
 |logout|log out|
+
 |lookup|look up|
+
 |markdown|mark down|
+
 |markup|mark up|
+
+|opt-in|opt in|
+
+|opt-out|opt out|
+
 |setup|set up|
+
 |signup|sign up|
+
 |signin|sign in|
+
 |signout|sign out|
+
 |wipeout|wipe out|
 
-You will likely have noticed a pattern here.  If you're dealing with a word ending in up, down, in or out, you may want to take special care to ensure that you're using it correctly.
+You will likely have noticed a pattern here.  If you're dealing with a word ending in up, down, in or out, you may want to take special care to ensure that you're using it correctly.
 
 ## Bonus Grammar
 
@@ -106,4 +128,4 @@ You _pore_ over code (that is, you study it carefully). You don't _pour_ over co
 
 If you see someone else making one of these mistakes, I encourage you kindly to correct them. Being sensitive when correcting someone else's grammar is very important. We all make grammatical mistakes, whether it's because we're tired, in a hurry or just not aware of the rules. It's possible to be kind while helping someone improve their grammar. Also, if you're inelegant about pointing out grammatical errors, it's the kind of thing that people remember about you, and not in a good way.
 
-The point of this exercise is to make code clearer and easier to read.  The easier your code is to understand, the easier it is to maintain for everyone who follows -- including future you.
+The point of this exercise is to make code clearer and easier to read.  The easier your code is to understand, the easier it is to maintain for everyone who follows -- including future you.
